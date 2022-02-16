@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lily X</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <div class="top-container">
+        <img class="top_cloud" src="images/cloud.png" alt="cloud-img">
+        <h1>I'm Lily.</h1>
+        <h2 class="programmer">a <span class="pro">pro</span>grammer.</h2>
+        <img class="bottom_cloud" src="images/cloud.png" alt="cloud-img">
+        <img class="mountain-img" src="images/mountain.png" alt="mountain-img">
+    </div>
+
+    <div class="middle-container">
+      <div class="profile">
+        <img class="profile-pic" src="images/lily-pic.png" alt="profile picture">
+        <h2>Hello.</h2>
+        <p class="intro">I'm thinking about getting a second degree in computer science.  This is my first attempt at a professional website.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="computer-img" src="images/programming.png"
+            alt="Programming icons created by juicy_fish - Flaticon">
+          <h3>Computer Programming</h3>
+          <p>I started learning code in university as one of my electives and I love how coding incorporates two of my loves - video games and logic.  Through school and independent learning, I already have a basic grasp of Python, Javascript, HTML, and CSS.</p>
+        </div>
+        <div class="skill-row">
+          <img class="medication-img" src="images/drugs.png" alt="Drug icons created by Freepik - Flaticon">
+          <h3 class="pharmacy">Pharmacy</h3>
+          <p class="pharmacy">I'm also a licensed practicing pharmacist.  I've been a pharmacy manager for more than 6 years.  I love the hustle and bustle of managing a community pharmacy.</p>
+        </div>
+      </div>
+      <hr class="contact-rule">
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Let's share the journey of becoming a programmer together.</h3>
+        <p class="contact-description">Drop me a shout anytime.</p>
+        <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/lily-xu-883a62225/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/lily_X_H">Twitter</a>
+      <a class="footer-link" href="https://www.youtube.com/channel/UCc7lY78AtrO1ZaIEqGw_-NA">Website</a>
+
+      <p class="copyright">© 2022 Lily X.</p>
+    </div>
+
+
+    </body>
+</html>
+
+<!-- Div stands for a content division element. Allows you to group boxes together. -->
+
+<!-------------------------------- DISPLAY PROPERTIES -------------------------------->
+<!-- BLOCK elements block out the entire width of the webpage. Ex. Paragraphs, Headers, Divisions, Lists
+and List Items, and Forms.  It does not let other elements sit on the same line.  You can set the width of block
+elements as you wish.  The default height will be the height of the font size. -->
+
+<!-- INLINE elements only take up as much space as it needs to in height and width. Ex. Spans, Images (actually
+more inline-block), Anchors.  Compared to block elements, you cannot change the width of inline elements -->
+
+<!-- INLINE-BLOCK has the best of both worlds.  You can set the width of this type of element as well as
+ allow for more than 1 element to sit on the same line.  Images are considered inline-block elements. You can
+ change the width and height of images as you wish and they also work as inline elements by being able to be
+ next to each other. -->
+
+<!-- Display: NONE - if you change the display value to this, the element will disappear from the page and
+will only exist in your code.  To  hide something from your page, you can either do this or use the
+visibility: hidden; to hide your code.  The visibility value will hide the element but the space that it
+occupied will still be visible. However, if you use display: none, the space that the element occupied will
+also disappear. -->
+
+<!-- You can change the type of element by using the display value. -->
+
+
+<!-------------------------------- POSITIONING -------------------------------->
+<!-- STATIC positioning - HTML without any CSS, using the default CSS values of the HTML elements. -->
+
+<!-- RELATIVE positioning - position the element we select relative to how it would have been positioned
+had it been static.  For example, let's say a statically positioned image was left-aligned.  If we change the
+position of the image to relative and then stated we want to move the image from the left by 30px, the image
+will now be shifted from the left edge of the screen toward the center by 30px.
+                                        img {
+                                            position: relative;
+                                            left: 30px;
+                                        }
+The relative position can be adjusted using top, bottom, left, and right. It's important to note that when
+you change the relative position of an element, it does not affect anything else on screen. -->
+
+<!-- ABSOLUTE position - we shift the position of the element relative to its parent.  For example:
+                                        <div><img></div>
+                                        div {
+                                            position: relative;
+                                        }
+                                        img {
+                                            position: absolute;
+                                            right: 30px;
+                                        }
+Let's say the div element takes up the entire line.  If you set the image to absolute positioning and move it right
+30px, then the image will go to the right and move from the right edge of the screen over by 30 pixels.  Unlike
+relative positioning where it does not affect the positioning of the other elements, once you change an element
+to absolute, all the other elements will shift up to take up the space previously occupied by the absolute element.
+Note that parent of the absolute positioned element does not have to be the body element.  It can be anything with
+a relative position.-->
+
+<!-- FIXED position - this means the element will remain on the same spot on the webpage even if you scroll up or
+down. -->
+

@@ -1,0 +1,204 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: "Sacramento", cursive;
+    font-size: 5.625rem;
+    margin: 100px auto 0 auto;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: "Montserrat", non-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999E;
+    font-family: "Montserrat", non-serif;
+}
+
+
+p {
+    line-height: 2;
+    color: #40514E;
+}
+
+a {
+    color: #11999E;
+    font-family: "Montserrat", non-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px 30px 0px 30px;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+hr {
+    width: 6%;
+    border-top: 10px;
+    border-style: dotted none none;
+    border-color: #EAF6F6;
+    margin: 100px auto 100px auto;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle-container {
+    padding: 100px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 60px 0 20px 0;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.programmer {
+    font-size: 2.0rem;
+}
+
+.intro {
+    width: 40%;
+    margin: auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.contact-description{
+    padding: 30px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    padding-top: 20px;
+    font-size: 0.75rem;
+}
+
+.top_cloud {
+    position: absolute;
+    right: 400px;
+    top: 50px;
+    width: 13%;
+}
+
+.bottom_cloud {
+    position: absolute;
+    left: 400px;
+    bottom: 500px;
+    width: 13%;
+}
+
+.mountain-img {
+    width: 50%;
+}
+
+.profile-pic {
+    width: 15%;
+}
+
+.computer-img {
+    width: 15%;
+    float: left;
+    margin-right: 30px;
+}
+
+.medication-img {
+    width: 15%;
+    float: right;
+    margin-left: 30px;
+    clear: left;
+}
+
+.pharmacy {
+    clear: left;
+}
+
+.contact-rule {
+    clear: right;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/********************************** FONTS **********************************/
+/*
+SERIF - feet;
+SANS-SERIF - no feet;
+CURSIVE - never really used (low readability), handwritten styles
+FANTASY - never really used (low readability), meant to remind you of avatar
+INHERIT -
+MONOSPACE - each letter takes up the same amount of space (good for coding)
+
+If you set up the font family to a specific font followed by the font family, the browser will first try
+to use the specific font, then if it does not have this font, then it will use the default font-family font.
+To prevent anyone from not being able to view the browser properly, you can use WEB-SAFE fonts.  These are
+better than picking a font at random, but they are still not a 100% guarantee.  Instead, you can use fall-backs.
+This means you would have a couple of options for fonts before going to the default font.
+Even then, there's a chance for failure.  You could also use EMBEDDING to ensure everyone can get the same fonts
+as what you see on screen.  Google Fonts has a large selection of different font-families you can grab the link to
+and embed in your html header.  By using this when someone visits your website the browser will download the
+fonts used in your webpage from Google fonts so there's very little chance the fonts will not display properly.
+
+16px is equivalent to 100% or 1em.  If you set a font size to a pixel size, the font size will not change regardless
+of the browser default font size setting.  However, if you use a percentage or em, then the font size will change
+dynamically depending on the default font size setting.  However, some may argue that instead of changing the
+default font size on a browser, most people nowadays just use the zoom setting on the browser.  In this case, it
+does not matter if the font is dynamically sized.  The text will increase in size depending on the magnification
+of the zoom.
+
+For dynamically-sized fonts, the font-size is relative to the size of its parent.  For example, if the body's font
+size is 2em and a h1 heading had a font size of 2em as well, then the h1 actual font size would be 2+2 or 4em.
+
+In order to avoid this causing problems, you can use the rem or root em.  This means to ignore all the parent
+settings for the font size and just set it to this relative the root.
+
+Angela's personal recommendation is to use rem rather than em or percentages.
+
+
+*/
